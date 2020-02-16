@@ -1,0 +1,80 @@
+body {
+    font-family: Helvetica,Arial, sans-serif;
+    background-color: crimson;
+    padding: 0px;
+    margin: 0px;
+    background-attachment: fixed;
+    background: #ffffff url('../img2.jpg.jpg') repeat-y center;
+
+}
+p.blue {
+    color: blue;
+}
+
+h1 {
+    color: blue
+}
+
+ul.nav {
+    padding: 0px;
+}
+
+
+ul.nav li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+ul.nav li a:hover {
+    background-color: black;
+    color: blanchedalmond;
+
+}
+a.back {
+    color: blue;
+}
+form#form1 label {
+    display: block;
+    padding-bottom: 10px;
+}
+form#form1 div.form-block {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+form#form1 input[type="text"] {
+    padding: 10px;
+    width: 250px;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: black;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.3)
+}
+textarea {
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.3)
+}
+button {
+    color: white;
+    padding: 5px;
+    margin-left: 10px;
+    width: 200px;
+    margin-top: 10px;
+    height: 50px;
+    background-color: black;
+}
+button:hover {
+    background-color: green;
+    color: cornsilk;
+}
+button:focus {
+    background-color: royalblue;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    border-color: black;
+}
+link#link1 {
+    background-color: black;
+    color: blanchedalmond;
+}
+
